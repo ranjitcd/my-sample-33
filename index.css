@@ -1,0 +1,101 @@
+.header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header img{
+    margin: 5px;
+}
+
+/* navigation bar style */
+.navbar_container ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    top: 10%;
+}
+
+.navbar_container ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_container ul li{
+    margin-right: 40px;
+}
+
+.navbar_container ul li a:hover{
+    color:#333;
+    background-color: white;
+}
+
+main{
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin-top: 100px;
+}
+.Home{
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.submit_button{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+}
+
+footer h1{
+    color: orange;
+    padding: 20px;
+}
+footer p{
+    color: white;
+    padding: 20px;
+}
+
+footer section{
+    border-right: 1px solid gray;
+}
+
+#watches-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.watch{
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
